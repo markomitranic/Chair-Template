@@ -29,7 +29,7 @@
  
     </head>
     <body>
-    <!-- Off screen navigation -->
+    	<!-- Off screen navigation -->
     	<div id="sidr">
 			<ul>	
 				<li><a class="side-logo" href="index.html">Chair<span class="logo-dot accent-bg"></span></a></li>
@@ -79,10 +79,10 @@
 							<li class="dropdown">
 							    <a href="./index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Home <span class="fa fa-angle-down"></span></a>
 							    <ul class="dropdown-menu">
-							      	<li class="active"><a href="./index.html">Home Grid</a></li>
+							      	<li><a href="./index.html">Home Grid</a></li>
 							      	<li><a href="./index-list.html">Home List</a></li>
 							      	<li><a href="./index-full-width.html">Home Full</a></li>
-							      	<li><a href="./index-slider.html">Home Slider</a></li>
+							      	<li class="active"><a href="./index-slider.html">Home Slider</a></li>
 							    </ul>
 							</li>
 							<li><a href="./about.html">About</a></li>
@@ -124,25 +124,39 @@
 
 		<div class="main-container">
 			<header class="fullscreen-element">
-				<div class="background-image-holder parallax-background overlay" data-stellar-background-ratio="0.9">
-					<img class="background-image" alt="Background Image" src="images/1600x900.png">
+				<div class="hero-slider">
+					<div class="slide" style="background: url('images/1600x900.png') 50% 0%;" data-stellar-background-ratio="0.9">
+						<div class="container align-vertical hero">
+							<div class="row">
+								<div class="col-sm-5 text-left">
+									<h1>Modern Chair</h1>
+									<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates depudiandae sint et molestiae.</p>
+									<div class="button-group">
+										<a href="#" class="btn btn-default">Purchase</a>
+										<a href="#" class="btn btn-primary">Shop Now</a>
+									</div>
+								</div>
+							</div><!--end of row-->
+						</div><!--end of container-->
+					</div>
+					<div class="slide" style="background: url('images/1600x900.png') 50% 0%;" data-stellar-background-ratio="0.9">
+						<div class="container align-vertical hero">
+							<div class="row">
+								<div class="col-sm-5 col-sm-offset-7 text-left">
+									<h1>Yellow Chair</h1>
+									<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates depudiandae sint et molestiae.</p>
+									<div class="button-group">
+										<a href="#" class="btn btn-default">Purchase</a>
+										<a href="#" class="btn btn-primary">Shop Now</a>
+									</div>
+								</div>
+							</div><!--end of row-->
+						</div><!--end of container-->
+					</div>
 				</div>
-
-				<div class="container align-vertical hero">
-					<div class="row">
-						<div class="col-md-5 col-sm-5 col-md-offset-7 col-sm-offset-7 text-left">
-							<h1>Modern Chair</h1>
-							<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates depudiandae sint et molestiae.</p>
-							<div class="button-group">
-								<a href="#" class="btn btn-default">Purchase</a>
-								<a href="#" class="btn btn-primary">Shop Now</a>
-							</div>
-						</div>
-					</div><!--end of row-->
-				</div><!--end of container-->
 			</header>
 
-			<div class="action-bar">
+			<div class="action-bar section">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-4">
@@ -351,6 +365,7 @@
         <script type="text/javascript" src="js/isotope.min.js"></script>
         <script type="text/javascript" src="js/stellar.min.js"></script>
         <script type="text/javascript" src="js/sidr.min.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
     </body>
 </html>

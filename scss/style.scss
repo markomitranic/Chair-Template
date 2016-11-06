@@ -1,8 +1,31 @@
+
+// Global chair Color pigment. Replace with your own hex code
+
+// Red : #e74c3c
+// Purple : #ab47bc
+// Pink : #E91E63
+// Lime : #afb42b
+// Light Purple : #7776e5
+// Indigo : #3f51b5
+// Green : #8bc34a
+// Deep Orange : #f57c00
+// Cyan : #00bcd4
+// Brown : #795548
+// Blue : #2196F3
+// Black : #000000
+
+$primary-color: #e74c3c;
+
+
 @import "reset";
 
+// Template Imports
+@import "chair-general";
+@import "chair-popup";
+@import "chair-color";
+
+// Overrides
 @import "content";
-
-
 
 
 

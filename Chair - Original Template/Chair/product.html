@@ -79,7 +79,7 @@
 							<li class="dropdown">
 							    <a href="./index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Home <span class="fa fa-angle-down"></span></a>
 							    <ul class="dropdown-menu">
-							      	<li class="active"><a href="./index.html">Home Grid</a></li>
+							      	<li><a href="./index.html">Home Grid</a></li>
 							      	<li><a href="./index-list.html">Home List</a></li>
 							      	<li><a href="./index-full-width.html">Home Full</a></li>
 							      	<li><a href="./index-slider.html">Home Slider</a></li>
@@ -92,7 +92,7 @@
 							      	<li><a href="./catalog.html">Catalog Grid</a></li>
 							      	<li><a href="./catalog-list.html">Catalog List</a></li>
 							      	<li><a href="./catalog-full-width.html">Catalog Full</a></li>
-							      	<li><a href="./product.html">Single Product</a></li>
+							      	<li class="active"><a href="./product.html">Single Product</a></li>
 							    </ul>
 							</li>
 							<li class="dropdown">
@@ -123,20 +123,16 @@
 		</div>
 
 		<div class="main-container">
-			<header class="fullscreen-element">
+			<header class="secondary">
 				<div class="background-image-holder parallax-background overlay" data-stellar-background-ratio="0.9">
 					<img class="background-image" alt="Background Image" src="images/1600x900.png">
 				</div>
 
 				<div class="container align-vertical hero">
 					<div class="row">
-						<div class="col-md-5 col-sm-5 col-md-offset-7 col-sm-offset-7 text-left">
-							<h1>Modern Chair</h1>
+						<div class="col-md-5 text-left">
+							<h1>More comfort</h1>
 							<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates depudiandae sint et molestiae.</p>
-							<div class="button-group">
-								<a href="#" class="btn btn-default">Purchase</a>
-								<a href="#" class="btn btn-primary">Shop Now</a>
-							</div>
 						</div>
 					</div><!--end of row-->
 				</div><!--end of container-->
@@ -146,34 +142,79 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-4">
-							<a href="#"><span data-icon="v" class="icon"></span> <span class="text">Fast Delivery</span></a>
+							<a href="./catalog-list.html">
+								<i class="fa fa-angle-left"></i>
+							</a>
 						</div>
 						<div class="col-sm-4">
-							<a href="#"><span data-icon="/" class="icon"></span> <span class="text">Adjustable</span></a>
+							<a href="./catalog.html">
+								<div class="custom-icon icon-grid">
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+							</a>
 						</div>
 						<div class="col-sm-4">
-							<a href="#"><span data-icon="7" class="icon"></span> <span class="text">Inovative</span></a>
+							<a href="#">
+								<i class="fa fa-angle-right"></i>
+							</a>
 						</div>
 					</div><!-- /.row -->
 				</div><!-- /.container -->
 			</div>
 
-			<section>
-				<div class="background-image-holder overlay" data-stellar-background-ratio="0.9">
-					<img class="background-image" alt="Background Image" src="images/1600x900.png">
-				</div>
+			<section class="product-single">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-5 text-left">
-							<h2 class="page-title">For your familly</h2>
-							<p class="description">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates depudiandae sint et molestiae.</p>
-							<a href="#" class="btn btn-primary">Shop Now</a>
+						<div class="col-md-7">
+							<div class="product-main-image">
+								<img src="images/720x490.png" alt="">
+							</div>
+							<div class="secondary-images">
+								<div class="row">
+									<div class="col-xs-4">
+										<a href="images/1140x760.png">
+											<img src="images/200x135.png" alt="">
+										</a>
+									</div>
+									<div class="col-xs-4">
+										<a href="images/1140x760.png">
+											<img src="images/200x135.png" alt="">
+										</a>
+									</div>
+									<div class="col-xs-4">
+										<a href="images/1140x760.png">
+											<img src="images/200x135.png" alt="">
+										</a>
+									</div>
+								</div>
+								
+							</div>
 						</div>
-					</div><!--end of row-->
-				</div><!--end of container-->
+						<div class="col-md-4 col-md-offset-1">
+							<div class="product-details">
+								<h2 class="page-title product-name">Modern chair</h2>
+								<p class="product-price">$90</p>
+								<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptat et molestiae non.</p>
+								<div class="product-social">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-pinterest"></i></a>
+									<a href="#"><i class="fa fa-instagram"></i></a>
+								</div>
+								<a href="#" class="btn btn-default"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+							</div>
+						</div>
+					</div><!-- /.row -->
+				</div><!-- /.container -->
 			</section>
 
-			<section class="products-grid">
+			<section class="products-grid related-products no-padding-top">
 				<div class="container">
 					<div class="row products-container">
 						<div class="col-md-4 col-sm-6 col-xs-12 product">
@@ -191,64 +232,7 @@
 							<div class="thumbnail" style="background-image: url('images/730x730.png');">
 								<div class="product-details text-center">
 									<div class="align-vertical">
-										<h3>Sofa</h3>
-										<a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-										<p class="product-price">$90</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 col-xs-12 product">
-							<div class="thumbnail" style="background-image: url('images/730x730.png');">
-								<div class="product-details text-center">
-									<div class="align-vertical">
-										<h3>Clasic chair</h3>
-										<a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-										<p class="product-price">$90</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-4 col-sm-6 col-xs-12 product">
-							<div class="thumbnail" style="background-image: url('images/730x730.png');">
-								<div class="product-details text-center">
-									<div class="align-vertical">
-										<h3>Leather chair</h3>
-										<a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-										<p class="product-price">$90</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 col-xs-12 product">
-							<div class="thumbnail" style="background-image: url('images/730x730.png');">
-								<div class="product-details text-center">
-									<div class="align-vertical">
-										<h3>Blue chair</h3>
-										<a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-										<p class="product-price">$90</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 col-xs-12 product">
-							<div class="thumbnail" style="background-image: url('images/730x730.png');">
-								<div class="product-details text-center">
-									<div class="align-vertical">
-										<h3>Orange chair</h3>
-										<a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-										<p class="product-price">$90</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-4 col-sm-6 col-xs-12 product">
-							<div class="thumbnail" style="background-image: url('images/730x730.png');">
-								<div class="product-details text-center">
-									<div class="align-vertical">
-										<h3>Sofa</h3>
+										<h3>Yellow chair</h3>
 										<a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to cart</a>
 										<p class="product-price">$90</p>
 									</div>
@@ -266,34 +250,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-6 col-xs-12 product">
-							<div class="thumbnail" style="background-image: url('images/730x730.png');">
-								<div class="product-details text-center">
-									<div class="align-vertical">
-										<h3>Clasic chair</h3>
-										<a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-										<p class="product-price">$90</p>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div><!-- /.row -->
 				</div><!-- /.container -->
-			</section>
-
-			<section>
-				<div class="background-image-holder on-page overlay">
-					<img class="background-image" alt="Background Image" src="images/1600x900.png">
-				</div>
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-5 col-sm-offset-7 text-right">
-							<h2 class="page-title">Modern Chair<span class="accent-color">.</span></h2>
-							<p class="description">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates depudiandae sint et molestiae.</p>
-							<a href="#" class="btn btn-primary">Shop Now</a>
-						</div>
-					</div><!--end of row-->
-				</div><!--end of container-->
 			</section>
 
 			<section class="newsletter accent-bg">
@@ -323,7 +281,7 @@
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3">
 							<ul class="footer-navigation">
-								<li class="active"><a href="./index.html">Home</a></li>
+								<li><a href="./index.html">Home</a></li>
 								<li><a href="./about.html">About</a></li>
 								<li><a href="./catalog.html">Catalog</a></li>
 								<li><a href="./blog.html">Blog</a></li>
@@ -344,13 +302,14 @@
 				</div><!-- /.container -->
 			</footer>
 		</div><!-- /.main-container -->
-			
-		<!-- Scripts -->	
+		
+		<!-- Scripts -->
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/isotope.min.js"></script>
         <script type="text/javascript" src="js/stellar.min.js"></script>
         <script type="text/javascript" src="js/sidr.min.js"></script>
+        <script type="text/javascript" src="js/popup.min.js"></script>
         <script type="text/javascript" src="js/scripts.js"></script>
     </body>
 </html>
